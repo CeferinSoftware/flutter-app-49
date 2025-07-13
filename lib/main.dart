@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'PokeWokee',
+      title: 'PokeWoke',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Color.fromRGBO(33, 150, 243, 1)),
         useMaterial3: true,
@@ -54,7 +54,7 @@ class _WebViewScreenState extends State<WebViewScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('PokeWokee'),
+        title: Text('PokeWoke'),
         backgroundColor: Color.fromRGBO(33, 150, 243, 1),
         foregroundColor: Colors.white,
         actions: [
